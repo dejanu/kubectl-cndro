@@ -1,0 +1,24 @@
+08 00 09 30 Welcome coffee and snack / Registration / Badge Pick Up @ -
+09 30 09 45 Intro from the Organizers @ Atlas
+09 45 10 15 Metaminds Sponsored Keynote @ Atlas
+10 15 10 45 It's 3 AM and Your Kubernetes Cluster is Down: Why AI Should Be On-Call Instead of You @ Atlas # Viktor Farcic, Upbound
+10 45 11 00 Break / Split Room @ -
+11 00 11 30 Kube-Oddities - the quirks that keep Kubernetes interesting @ Atlas 1 # Márk Sági-Kazár, Cloud Native Ambassador & Marcus Noble, Monzo
+11 00 11 30 Data sovereignty - what it really means? @ Atlas 2 # Pawel Piwosz, UpCloud
+11 45 12 15 Multi-Tenancy Has Layers: Peeling the Kubernetes Onion One Question at a Time @ Atlas 1 # Carlos Mestre del Pino, Microsoft
+11 45 12 15 The Safety Net: A Network Engineer's First 90 Days as a Kubernetes Backup @ Atlas 2 # Alexandra Frincu, University of Lausanne
+12 30 13 00 You Can't Prevent Every Outage, But You Can See Them Coming @ Atlas 1 # Florin Loghiade, UiPath
+12 30 13 00 Teaching Machines to Debug Machines: Building an AI-Powered RCA Agent for Sylva-Core @ Atlas 2 # Mihai Zaharia, Orange
+13 00 14 00 Lunch Break @ -
+14 00 14 30 Adobe's Platform Story: A New Platform Paradigm for Scaling the Kubernetes Fleet @ Atlas 1 # Alex Petrică, Adobe
+14 00 14 30 Battery-Included AI Platform: From Zero to Production LLMs with EKS, KRO, and GitOps @ Atlas 2 # Andra Somesan & Radu Dobrinescu, AWS
+14 45 15 15 Scaling Blockchain Infrastructure to Billions of Requests: A Cloud-Native RPC Platform @ Atlas 1 # Mihai-Alexandru Mihalcea & Mihai Stanescu & Marton Szekely-Schnedarek, Alchemy
+14 45 15 15 MLOps for GenAI: Enabling Autoscaling for GPU intensive workloads @ Atlas 2 # Andrei Mihai & Flavius Petruca, Adobe
+15 15 15 30 Coffee Break @ -
+15 30 16 00 Kubernetes in Transit: Best Practices for Smooth Cross-Cloud Migrations @ Atlas 1 # Federico Fregosi, Wise
+15 30 16 00 Empowering LLMs with Kubernetes Context: Smart Troubleshooting via MCP @ Atlas 2 # Velmira Georgieva, SAP & Ross Georgiev, Broadcom
+16 15 16 45 From N-Tier Architecture to Microservices and Agents @ Atlas 1 # Adelina Stanciu, Finastra
+16 15 16 45 MCP Security: Keep Your AI Agents from Spilling the Tea @ Atlas 2 # Manfred Bjørlin & Awar Abdulkarim, Sopra Steria
+17 00 17 30 Let it be chaos!? Practical chaos engineering for resilient Kubernetes clusters @ Atlas 1 # Bogdan Stan, ING Hubs
+17 00 17 30 Outcome-Driven Data Architecture: A Spotify Listener Personality Case Study @ Atlas 2 # Cristina Bocan, Endava
+17 30 18 00 Networking @ -
