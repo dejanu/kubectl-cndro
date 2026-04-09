@@ -10,7 +10,7 @@ spec:
           os: linux
           arch: amd64
       uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.1/kubectl-cndro_v0.1.1_linux_amd64.tar.gz
-      sha256: ad4d8fa7e7c43d21885450739bef35d535f6dfb8864e1225cb9ea218dd54e909
+      sha256: c621d891c99d22d062e42c92fe300cfd156d2da59550a32bfb3c83b929b02b81
       files:
         - from: "./kubectl-cndro"
           to: "."
@@ -22,7 +22,7 @@ spec:
           os: linux
           arch: arm64
       uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.1/kubectl-cndro_v0.1.1_linux_arm64.tar.gz
-      sha256: 18db6ab973f9892b4125933937fa779823b3b6b0012a273acd7791c60b999f07
+      sha256: cedcb73a758a2e422d035cbd7b2c7e5a16e8b1afd0f9c4456c5f80a7a8bb875a
       files:
         - from: "./kubectl-cndro"
           to: "."
@@ -34,7 +34,7 @@ spec:
           os: darwin
           arch: amd64
       uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.1/kubectl-cndro_v0.1.1_darwin_amd64.tar.gz
-      sha256: 4136e8aab7a2b8ca6a248c47887d17dacbb56add446e7ff3156aa74b75adba0c
+      sha256: 32d428ca3f30b5ed2a63cd2e6556c8b403a599a76b560cf519c1f5b8268b5586
       files:
         - from: "./kubectl-cndro"
           to: "."
@@ -46,7 +46,7 @@ spec:
           os: darwin
           arch: arm64
       uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.1/kubectl-cndro_v0.1.1_darwin_arm64.tar.gz
-      sha256: 63fd665d98b784deaf25e5d6937ba4e02b1aef7c958e53734d3b573cb2930d67
+      sha256: d8a1576c082c45330c70fe7273e47cc18b8d47c7308aac798541f4b6b289f8ac
       files:
         - from: "./kubectl-cndro"
           to: "."
@@ -58,7 +58,7 @@ spec:
           os: windows
           arch: amd64
       uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.1/kubectl-cndro_v0.1.1_windows_amd64.zip
-      sha256: 43b2f30ae05b0c18f73a3171cc3bcdbb01f299bfc3a0b8e9a8a4593b1d0c245b
+      sha256: 0c022c8dfe03412e0f54ae0b8c651fbd4723cfa5b20ab8582188766bf5ecf7c8
       files:
         - from: "kubectl-cndro.exe"
           to: "."
