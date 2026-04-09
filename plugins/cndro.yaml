@@ -1,0 +1,80 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: cndro
+spec:
+  version: v0.1.0
+  platforms:
+    - selector:
+        matchLabels:
+          os: linux
+          arch: amd64
+      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.0/kubectl-cndro_v0.1.0_linux_amd64.tar.gz
+      sha256: ad706d3fb3beaceac84c1fcfa9d5869bdec1571d7646ba90ba34d09093f9cefe
+      files:
+        - from: "./kubectl-cndro"
+          to: "."
+        - from: LICENSE
+          to: "."
+      bin: kubectl-cndro
+    - selector:
+        matchLabels:
+          os: linux
+          arch: arm64
+      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.0/kubectl-cndro_v0.1.0_linux_arm64.tar.gz
+      sha256: 4a48a1ddb790a046d6ed8aa341c74b03215627c32f19d420d7cac30a6d990097
+      files:
+        - from: "./kubectl-cndro"
+          to: "."
+        - from: LICENSE
+          to: "."
+      bin: kubectl-cndro
+    - selector:
+        matchLabels:
+          os: darwin
+          arch: amd64
+      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.0/kubectl-cndro_v0.1.0_darwin_amd64.tar.gz
+      sha256: 8c98ee488b0dcd9fbd4d5ceb1dafec5892117078734dcae843649903c3598be0
+      files:
+        - from: "./kubectl-cndro"
+          to: "."
+        - from: LICENSE
+          to: "."
+      bin: kubectl-cndro
+    - selector:
+        matchLabels:
+          os: darwin
+          arch: arm64
+      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.0/kubectl-cndro_v0.1.0_darwin_arm64.tar.gz
+      sha256: 66b8b175ad88dd3c0030667eae35e50c60e322aa17d68c49be74ecc3faea6cc3
+      files:
+        - from: "./kubectl-cndro"
+          to: "."
+        - from: LICENSE
+          to: "."
+      bin: kubectl-cndro
+    - selector:
+        matchLabels:
+          os: windows
+          arch: amd64
+      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.0/kubectl-cndro_v0.1.0_windows_amd64.zip
+      sha256: 0dc18a8212a1c68dbfb4f8c3ace9adf2f772f7101e7d22b75748d16efe43080c
+      files:
+        - from: "kubectl-cndro.exe"
+          to: "."
+        - from: LICENSE
+          to: "."
+      bin: kubectl-cndro.exe
+  shortDescription: Cloud Native Days Romania schedules and tickets
+  homepage: https://github.com/dejanu/kubectl-cndro
+  caveats: |
+    Usage:
+      kubectl cndro -h
+      kubectl cndro day1
+      kubectl cndro day2
+      kubectl cndro tickets
+
+    See https://github.com/dejanu/kubectl-cndro/blob/main/Readme.md
+  description: |
+    kubectl plugin for Cloud Native Days Romania (CNDRO): conference schedules
+    (sessions and workshops), tickets URL with optional browser open, and pricing.
