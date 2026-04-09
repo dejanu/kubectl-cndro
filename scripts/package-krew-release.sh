@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # Build kubectl-cndro release archives for Krew (binary + LICENSE).
-# Usage: VERSION=v0.1.0 ./scripts/package-krew-release.sh
+# Usage: VERSION=v0.1.1 ./scripts/package-krew-release.sh
 # Artifacts go to dist/krew/<VERSION>/; run shasum -a 256 on them for krew/cndro.yaml.
 set -euo pipefail
 
-VERSION="${VERSION:-v0.1.0}"
+VERSION="${VERSION:-v0.1.1}"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 OUT="${ROOT}/dist/krew/${VERSION}"
