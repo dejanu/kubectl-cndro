@@ -8,6 +8,8 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var version = "dev"
+
 func ticketsCmd() *cobra.Command {
 	var openBrowser bool
 	c := &cobra.Command{
@@ -40,6 +42,7 @@ func main() {
 		Use:   "cndro",
 		Short: "Cloud Native Days Romania conference helper",
 		Long:  "kubectl plugin for Cloud Native Days Romania (CNDRO): schedules and tickets.",
+		Version: version,
 		CompletionOptions: cobra.CompletionOptions{
 			DisableDefaultCmd: true,
 		},

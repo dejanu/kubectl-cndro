@@ -1,7 +1,5 @@
-# Build multi-arch release archives and attach them to a GitHub Release when you push tag v*.
-# Then update krew/cndro.yaml sha256 values if your CI toolchain produces different binaries
-# (run scripts/package-krew-release.sh locally and paste shasum output), or keep manifest in sync
-# with the artifacts from this workflow.
+# Build multi-arch release archives, update Krew manifests, commit them back to main,
+# and attach archives to a GitHub Release — all triggered by pushing a v* tag.
 name: Release
 
 on:
@@ -17,17 +15,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-go@v5
         with:
           go-version-file: go.mod
 
-      - name: Package archives
+      - name: Package archives and update manifests
         env:
           VERSION: ${{ github.ref_name }}
         run: |
           chmod +x scripts/package-krew-release.sh
           ./scripts/package-krew-release.sh
+
+      - name: Commit and push updated manifests
+        env:
+          VERSION: ${{ github.ref_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          git add plugins/cndro.yaml krew/cndro.yaml
+          git diff --cached --quiet || git commit -m "chore: bump Krew manifests to ${VERSION}"
+          git push origin main
 
       - name: Upload release assets
         uses: softprops/action-gh-release@v2
