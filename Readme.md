@@ -1,10 +1,10 @@
 ### CNDRO conference kubectl plugin
 
-A `kubectl` plugin for [CloudNativeDays_RO](https://cloudnativedays.ro/)
+* A `kubectl` plugin for [CloudNativeDays_RO](https://cloudnativedays.ro/)
 
 ### Install
 
-*  Using **Krew** custom index [dejanu/kubectl-cndro](https://github.com/dejanu/kubectl-cndro):
+* Using **Krew** custom index [dejanu/kubectl-cndro](https://github.com/dejanu/kubectl-cndro):
 
 ```bash
 kubectl krew index add dejanu https://github.com/dejanu/kubectl-cndro.git
