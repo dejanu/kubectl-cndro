@@ -3,14 +3,14 @@ kind: Plugin
 metadata:
   name: cndro
 spec:
-  version: v0.1.1
+  version: v0.1.2
   platforms:
     - selector:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.1/kubectl-cndro_v0.1.1_linux_amd64.tar.gz
-      sha256: c621d891c99d22d062e42c92fe300cfd156d2da59550a32bfb3c83b929b02b81
+      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.2/kubectl-cndro_v0.1.2_linux_amd64.tar.gz
+      sha256: 397c8bde446a178fa13b8e3088d94f66b1b72f65f87e771e58602b6fe0f70c08
       files:
         - from: "./kubectl-cndro"
           to: "."
@@ -21,8 +21,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.1/kubectl-cndro_v0.1.1_linux_arm64.tar.gz
-      sha256: cedcb73a758a2e422d035cbd7b2c7e5a16e8b1afd0f9c4456c5f80a7a8bb875a
+      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.2/kubectl-cndro_v0.1.2_linux_arm64.tar.gz
+      sha256: 8a1f9eec2d88d612a2566ee481cabfde00c47498f06d955d3be74e064f7aa092
       files:
         - from: "./kubectl-cndro"
           to: "."
@@ -33,8 +33,8 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.1/kubectl-cndro_v0.1.1_darwin_amd64.tar.gz
-      sha256: 32d428ca3f30b5ed2a63cd2e6556c8b403a599a76b560cf519c1f5b8268b5586
+      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.2/kubectl-cndro_v0.1.2_darwin_amd64.tar.gz
+      sha256: 4de9e2df598b5bf579a48bdfab993a9e2382f2581bec2fdd822755ac66fca86f
       files:
         - from: "./kubectl-cndro"
           to: "."
@@ -45,8 +45,8 @@ spec:
         matchLabels:
           os: darwin
           arch: arm64
-      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.1/kubectl-cndro_v0.1.1_darwin_arm64.tar.gz
-      sha256: d8a1576c082c45330c70fe7273e47cc18b8d47c7308aac798541f4b6b289f8ac
+      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.2/kubectl-cndro_v0.1.2_darwin_arm64.tar.gz
+      sha256: 36b2bea932add637dbda9b2ca91ba69c1f5a5b98f1fd0e9cdd1137d54f70a2c0
       files:
         - from: "./kubectl-cndro"
           to: "."
@@ -57,8 +57,8 @@ spec:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.1/kubectl-cndro_v0.1.1_windows_amd64.zip
-      sha256: 0c022c8dfe03412e0f54ae0b8c651fbd4723cfa5b20ab8582188766bf5ecf7c8
+      uri: https://github.com/dejanu/kubectl-cndro/releases/download/v0.1.2/kubectl-cndro_v0.1.2_windows_amd64.zip
+      sha256: 47a950c0384a6e0ff16add17b92632b421671cde77a6391c504127ab86732f70
       files:
         - from: "kubectl-cndro.exe"
           to: "."
