@@ -36,7 +36,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout main
-          git add plugins/cndro.yaml krew/cndro.yaml
+          git add plugins/cndro.yaml
           git diff --cached --quiet || git commit -m "chore: bump Krew manifests to ${VERSION}"
           git push origin main
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Build kubectl-cndro release archives for Krew (binary + LICENSE).
 # Usage: VERSION=v0.1.1 ./scripts/package-krew-release.sh
-# Artifacts go to dist/krew/<VERSION>/; manifests plugins/cndro.yaml and krew/cndro.yaml
-# are updated automatically with the new version and sha256 values.
+# Artifacts go to dist/krew/<VERSION>/; manifest plugins/cndro.yaml
+# is updated automatically with the new version and sha256 values.
 set -euo pipefail
 
 # sha256 helper: works on both Linux (sha256sum) and macOS (shasum)
@@ -113,4 +113,3 @@ PYEOF
 
 echo ""
 update_manifest "${ROOT}/plugins/cndro.yaml"
-update_manifest "${ROOT}/krew/cndro.yaml"
