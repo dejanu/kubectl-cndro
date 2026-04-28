@@ -13,12 +13,12 @@
 14 00 14 30 Hyperlight: Virtual machine-based security for serverless functions at scale @ Atlas 1 # Ralph Squillace, Microsoft & Alessandro Pilotti, Cloudbase Solutions
 14 00 14 30 OpenSSF Projects as Compliance Infrastructure for Cloud-Native Software @ Atlas 2 # Madalin Neag, The Linux Foundation
 14 45 15 15 From a Single Server to Scalable Kubernetes: Lessons Learned Migrating a Travel Agency to AWS @ Atlas 1 # Andrei Petrescu, CloudHero
-14 45 15 15 Bro, Do You Even Supply Chain? How to Actually Secure Your Software Supply Chain @ Atlas 2 # Plamen Petkov, Cognyte
+14 45 15 15 Strategies for Efficient Log Management in Large-Scale Kubernetes Clusters @ Atlas 2 # Aliaksandr Valialkin, VictoriaMetrics
 15 15 15 30 Coffee Break @ -
 15 30 16 00 GitOps in the Wild: How We Run FluxCD at Raiffeisen Bank @ Atlas 1 # Mircea Anton, Raiffeisen Bank
 15 30 16 00 How to leverage Open Telemetry in an AI world @ Atlas 2 # Birzu Adrian & Maria Oprea, Oracle
-16 15 16 45 VibeOps for Novices: The Story of Last Standing Kubernetes Engineer @ Atlas 1 # Hoon Jo, Megazone
-16 15 16 45 LLMs on Kubernetes: Same Cluster, Different Threat Model @ Atlas 2 # Jake Page, MetalBear
+16 15 16 45 Cloud Sovereignty through Federalized Telco-Edge-Cloud Convergence @ Atlas 1 # Razvan Mihai & Marius Iordache, Orange
+16 15 16 45 Bro, Do You Even Supply Chain? How to Actually Secure Your Software Supply Chain @ Atlas 2 # Plamen Petkov, Cognyte
 17 00 17 30 Zero-Trust Multi-Tenancy: vCluster + Cilium Across Hybrid Cloud @ Atlas 1 # Constantin Mario, VOIS
 17 00 17 30 Building AI that works for people: A practical guide for developers @ Atlas 2 # Verlan Irina, verlan.agency
 17 30 18 00 Closing Remarks from the Organizers @ Atlas 1
